@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DATA\Bold.png" />
+    <None Remove="DATA\Italic.png" />
+    <None Remove="DATA\UnderLine.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="DATA\Bold.png" />
+    <Resource Include="DATA\Italic.png" />
+    <Resource Include="DATA\UnderLine.png" />
+  </ItemGroup>
+
+</Project>
